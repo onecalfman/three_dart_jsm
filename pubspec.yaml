@@ -13,13 +13,15 @@ dependencies:
     sdk: flutter
   three_dart: 
     git:
-        url: https://github.com/L3odr0id/three_dart.git
-        ref: 695b58ab4ef889c4f472fb79420a36134974da5e # mobile-branch # branch name
-  flutter_gl: ^0.0.20
+        url: https://github.com/onecalfman/three_dart.git
+  flutter_gl:
+    git: 
+      url: git@github.com:onecalfman/flutter_gl.git
+      path: flutter_gl
   typr_dart: ^0.0.2
   opentype_dart: ^0.0.1
   universal_html: ^2.0.8
-  image: ^3.1.1
+  image: ^4.0.0
   archive: ^3.3.0
   # flutter_webgpu:
   #   path: ../../flutter_webgpu

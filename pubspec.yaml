@@ -11,17 +11,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  three_dart: 
+  three_dart:
     git:
-        url: https://github.com/onecalfman/three_dart.git
+      url: git@github.com:onecalfman/three_dart.git
+      ref: HEAD
   flutter_gl:
-    git: 
+    git:
       url: git@github.com:onecalfman/flutter_gl.git
+      ref: HEAD
       path: flutter_gl
   typr_dart: ^0.0.2
   opentype_dart: ^0.0.1
   universal_html: ^2.0.8
-  image: ^4.0.0
+  image: ^4.1.7
   archive: ^3.3.0
   # flutter_webgpu:
   #   path: ../../flutter_webgpu

@@ -36,11 +36,11 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_gl:
     git:
-        url: https://github.com/onecalfman/flutter_gl.git
+        url: git@github.com:onecalfman/flutter_gl.git
         path: flutter_gl
   three_dart: 
     git:
-        url: https://github.com/onecalfman/three_dart.git
+        url: git@github.com:onecalfman/three_dart.git
   three_dart_jsm:
     path: ../
 
